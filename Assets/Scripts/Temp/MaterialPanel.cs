@@ -13,8 +13,8 @@ public class MaterialPanel : MonoBehaviour
     public void SetTile(Tile tile)
     {
         Tile = tile;
-        Name.text = Tile.substance.Material.Name;
-        Mass.text = $"{Tile.substance.Mass}kg";
+        Name.text = Tile.Substance.Material.Name;
+        Mass.text = $"{Tile.Substance.Mass}kg";
     }
 
 }

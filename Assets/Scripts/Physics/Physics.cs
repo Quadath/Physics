@@ -8,7 +8,8 @@ public class Physics : MonoBehaviour
     {
         new Material("???", 0),
         new Material("Vacuum", 0),
-        new Material("Hydrogen", 0.089f)
+        new Material("Hydrogen", 0.083f),
+        new Material("Oxygen", 16)
     };
 }
 public enum Aggregation

@@ -568,7 +568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   height: 10
   width: 10
-  vacuum: {fileID: 0}
+  vacuum: {fileID: 8420651317933331219, guid: 52ee155267636c44ab868cc92da9165c, type: 3}
 --- !u!4 &784440511
 Transform:
   m_ObjectHideFlags: 0
