@@ -566,9 +566,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ece8941bad9474498401d6f623c7b51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  height: 25
-  width: 25
-  tile: {fileID: 8420651317933331219, guid: 52ee155267636c44ab868cc92da9165c, type: 3}
+  height: 10
+  width: 10
+  vacuum: {fileID: 0}
 --- !u!4 &784440511
 Transform:
   m_ObjectHideFlags: 0

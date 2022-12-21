@@ -1,9 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
-public class Substance : MonoBehaviour
+public class Substance
 {
-    public float mass;
+    public float Mass;
     public Material Material;
+    public Aggregation Aggregation;
+
+    public Substance(float mass, Material material, Aggregation aggregation)
+    {
+        Mass = mass;
+        Material = material;
+        Aggregation = aggregation;
+    }
+
+    public void AddMass(float m)
+    {
+        Mass += m;
+    }
 }
